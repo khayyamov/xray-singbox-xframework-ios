@@ -37,8 +37,8 @@ jobs:
           echo $PWD
           whereis go
           go version
-          mv request.txt /Users/runner/hostedtoolcache/go/1.24.4/x64/src/net/http/request.go
-          cat /Users/runner/hostedtoolcache/go/1.24.4/x64/src/net/http/request.go
+          mv request.txt /Users/runner/hostedtoolcache/go/1.25.1/x64/src/net/http/request.go
+          cat /Users/runner/hostedtoolcache/go/1.25.1/x64/src/net/http/request.go
 
       - name: Setup Gomobile
         run: |
